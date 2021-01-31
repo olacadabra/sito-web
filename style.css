@@ -13,6 +13,7 @@ article{
   border: 5px solid navy;
   padding: 3px;
 }
+
 .header-fixed {
 	background-color:#292c2f;
 	box-shadow:0 1px 1px #ccc;
@@ -94,7 +95,7 @@ body.fixed .header-fixed .header-limiter nav {
 /* Making the header responsive */
 @media all and (max-width: 726px) {
   #img1{
-    width: 90vw; 
+    width: 40vw; 
     height: auto;  
   }
 	.header-fixed {
