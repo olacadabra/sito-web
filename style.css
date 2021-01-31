@@ -9,8 +9,8 @@ article{
 }
 #img1{
   border-radius: 20px; 
-  float: right;
-  width: 60vw;
+  float: center;
+  width: 50vw;
   height: auto;
   border: 5px solid navy;
   padding: 10px;
