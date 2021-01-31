@@ -8,7 +8,7 @@ article{
   margin: 1em;
 }
 #img1{
-  display: block;
+  display: inline-block;
   border-radius: 20px; 
   float: center;
   width: 50vw;
