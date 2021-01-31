@@ -93,7 +93,7 @@ body.fixed .header-fixed .header-limiter nav {
 	font-size: 13px;
 }
 /* Making the header responsive */
-@media all and (max-width: 800px) {
+@media all and (max-width: 640px) {
   #img1{
     width: 40vw; 
     height: auto;  
@@ -246,7 +246,7 @@ body {
 	margin-bottom: 5px;
 }
 /* If you don't want the footer to be responsive, remove these media queries */
-@media (max-width: 880px) {
+@media (max-width: 640px) {
 	.footer-distributed{
 		font: bold 14px sans-serif;
 	}
