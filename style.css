@@ -97,10 +97,10 @@ body.fixed .header-fixed .header-limiter nav {
 /* Making the header responsive */
 @media screen and (max-width: 800px){
 
-  #img1{
-    width: 30vw; 
-    height: auto;  
-  }
+        #img1{
+                width: 30vw; 
+                height: auto;  
+        }
 	.header-fixed {
 		padding: 20px 0;
 		height: 100px;
@@ -121,6 +121,20 @@ body.fixed .header-fixed .header-limiter nav {
 	}
 	body.fixed .header-fixed {
 		display: none;
+	}
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.footer-distributed .footer-center i{
+		margin-left: 0;
 	}
 }
 /*
@@ -249,20 +263,5 @@ body {
 	margin-bottom: 5px;
 }
 /* If you don't want the footer to be responsive, remove these media queries */
-@media screen and (max-width: 800px) {
-	.footer-distributed{
-		font: bold 14px sans-serif;
-	}
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
-  }
+
 
