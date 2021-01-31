@@ -18,6 +18,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>  
 <body> 
+	<script>
+	var smooth = [$('a.smooth'), 100, 750];
+smooth[0].click(function() {
+   $('html, body').animate({
+      scrollTop: $('[id="' + $.attr(this, 'href').substr(1) + '"]').offset().top -smooth[1]
+   }, smooth[2]);
+   return false;
+});
+	</script>
 <header class="header-fixed">
 	<div class="header-limiter">
 		<h1><img src="https://github.com/olacadabra/sito-web/blob/main/56168138_409247339887829_1938215707017131364_n.jpg?raw=true" height = "45" style="border-radius: 4em" alt="logo della TLG" />Turbo<span>Living</span>Garage</h1> 
@@ -100,15 +109,7 @@
 <div class="menu">
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>
-	var smooth = [$('a.smooth'), 100, 750];
-smooth[0].click(function() {
-   $('html, body').animate({
-      scrollTop: $('[id="' + $.attr(this, 'href').substr(1) + '"]').offset().top -smooth[1]
-   }, smooth[2]);
-   return false;
-});
-	</script>
+
 <script>
 	$(document).ready(function(){
 		var showHeaderAt = 150;
