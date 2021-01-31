@@ -10,8 +10,8 @@ article{
 #img1{
   border-radius: 20px; 
   float: center;
-	width: 60vw;
-	height: auto;
+  width: 60vw;
+  height: auto;
   border: 5px solid navy;
   padding: 10px;
 }
