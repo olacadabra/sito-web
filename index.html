@@ -101,7 +101,15 @@
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
-
+	var smooth = [$('a.smooth'), 100, 750];
+smooth[0].click(function() {
+   $('html, body').animate({
+      scrollTop: $('[id="' + $.attr(this, 'href').substr(1) + '"]').offset().top -smooth[1]
+   }, smooth[2]);
+   return false;
+});
+	</script>
+<script>
 	$(document).ready(function(){
 		var showHeaderAt = 150;
 		var win = $(window),
