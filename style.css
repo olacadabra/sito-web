@@ -93,7 +93,7 @@ body.fixed .header-fixed .header-limiter nav {
 	font-size: 13px;
 }
 /* Making the header responsive */
-@media all and (max-width: 726px) {
+@media all and (max-width: 800px) {
   #img1{
     width: 40vw; 
     height: auto;  
